@@ -1,14 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Ellie Hong">
-    <title>EcoTrading content Page</title>
+    <title>EcoTrading Information Page</title>
     <link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a simple HTML web pageadsc.</p>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+            <img src="ecoLogo.jpeg" alt="EcoTrading Logo"/>
+            </a>
+            <h1>EcoTrading</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="index.html#resources">Resources</a></li>
+                <li><a href="content.html">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Definition Section -->
+        <div class="definition-section">
+            <h2> What is EcoTrading?</h2>
+            <p>EcoTrading is a <b>sustainable waste management platform</b> that helps users <b>exchange, recycle, and repurpose</b> items instead of discarding them. The goal is to reduce waste and promote a <b>circular economy</b> through community-driven trade.</p>
+            <ul>
+                <li> Exchange used goods (electronics, clothing, books, etc.)</li>
+                <li> Earn eco-points for sustainable actions</li>
+                <li> Learn about proper waste management</li>
+                <li> Connect with a community of eco-friendly individuals</li>
+            </ul>
+        </div>
+        <div class="login-section">
+            <h2> Login to EcoTrading</h2>
+            <form action="#" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+    <section class="how">
+        <h2>How to Use EcoTrading</h2>
+        <p>EcoTrading lets you <b>exchange items, chat with traders, connect with local families, and join eco-events to earn rewards</b>.</p>
+
+        <div class="grid">
+
+            <!-- Exchange Platform -->
+            <div class="box">
+                <img src="exchange.jpg" alt="Exchange">
+                <h3>Exchange Items</h3>
+                <p>Trade used goods like <b>electronics, clothes, and books</b> instead of throwing them away.</p>
+            </div>
+
+            <!-- Chat Feature -->
+            <div class="box">
+                <img src="chat.png" alt="Chat">
+                <h3>Chat with Traders</h3>
+                <p>Use <b>chat to discuss trades</b>, arrange meetups, and ask questions.</p>
+            </div>
+            <div class="box">
+                <img src="trade.jpg" alt="Community">
+                <h3>Connect Locally</h3>
+                <p>Find and trade with <b>people in your area</b> and build an eco-friendly community.</p>
+            </div>
+
+            <!-- Events & Rewards -->
+            <div class="box">
+                <img src="reward.jpg" alt="Events">
+                <h3>Join Events & Earn</h3>
+                <p>Take part in <b>clean-ups, recycling drives, and sustainability workshops</b> to earn rewards!</p>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3> EcoTrading</h3>
+                <p>Join us in creating a sustainable future by trading, recycling, and repurposing waste.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#get-involved">Get Involved</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:info@ecotrading.com">info@ecotrading.com</a></p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Greenway St, Eco City, Earth</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 EcoTrading. All Things is made up.</p>
+        </div>
+    </footer>
 </body>
 </html>
